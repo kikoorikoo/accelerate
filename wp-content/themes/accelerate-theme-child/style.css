@@ -24,6 +24,9 @@
 
 #masthead nav ul li{ float: left; margin: 0 10px;}
 
+#primary-navigation > div > ul > li > a {text-transform: uppercase; margin-left: 20px;}
+#menu-top-nav {margin-bottom: 0;}
+
 /* blog post on homepage */
 .recent-posts {
 	overflow: hidden;
@@ -59,3 +62,11 @@ aside.case-study-sidebar h2{ color: #bbbbbb;  font-size: 14px; margin: 15px 0;}
 aside.case-study-sidebar h5{ color: #222222;  font-size: 14px; margin: 15px 0;}
 div.case-study-images{ float: left; width: 605px;}
 div.case-study-images img { display: block; margin-bottom: 50px; border: 1px solid #dddddd;}
+
+
+
+/*case studies on homepage */
+section.featured-work ul li { display: inline; list-style-image: none; }
+section.featured-work{margin-bottom: 100px;}
+
+
