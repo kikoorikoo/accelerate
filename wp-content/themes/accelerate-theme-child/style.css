@@ -22,6 +22,8 @@
 	background: none repeat scroll 0 0 #45ac9d;
 }
 
+#masthead nav ul li{ float: left; margin: 0 10px;}
+
 /* blog post on homepage */
 .recent-posts {
 	overflow: hidden;
@@ -46,3 +48,14 @@
 	color: #45ac9d;
 	text-transform: uppercase;
 }
+
+
+/* Case studies styles */
+article.case-study{margin-top: 40px}
+
+aside.case-study-sidebar{ float: left; width: 314px; margin-right: 40px;}
+aside.case-study-sidebar h1{ color: #222222;  font-size: 28px; }
+aside.case-study-sidebar h2{ color: #bbbbbb;  font-size: 14px; margin: 15px 0;}
+aside.case-study-sidebar h5{ color: #222222;  font-size: 14px; margin: 15px 0;}
+div.case-study-images{ float: left; width: 605px;}
+div.case-study-images img { display: block; margin-bottom: 50px; border: 1px solid #dddddd;}
