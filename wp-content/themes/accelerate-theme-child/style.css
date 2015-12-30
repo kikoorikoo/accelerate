@@ -69,4 +69,7 @@ div.case-study-images img { display: block; margin-bottom: 50px; border: 1px sol
 section.featured-work ul li { display: inline; list-style-image: none; }
 section.featured-work{margin-bottom: 100px;}
 
-
+/*Contact us form styles*/
+#ninja_forms_form_1 div#ninja_forms_field_1_div_wrap{float: left;}
+#ninja_forms_form_1 div#ninja_forms_field_2_div_wrap{float: left;}
+#ninja_forms_form_1 div#ninja_forms_field_3_div_wrap:before{clear: both;}
