@@ -112,9 +112,11 @@ section.featured-work{margin-bottom: 100px;}
 
 /*About Page Styles */
 .about-page-even-section, .about-page-odd-section{ clear: both;}
+.about-page-even-section h3, .about-page-odd-section h3{ clear: none;}
 .about-page-odd-image {float: left;}
 .about-page-odd-text { margin: 1em 0 0 1em; }
-.about-page-even-section h3, .about-page-odd-section h3{ clear: none;}
+.about-page-even-image {float: right;}
+.about-page-even-text { margin: 1em 0 0 0; }
 
 
 

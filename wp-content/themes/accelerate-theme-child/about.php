@@ -22,10 +22,13 @@ get_header(); ?>
 				$section_1_heading = get_field('section_1_heading');
 				$section_1_image = get_field('section_1_image');
 				$section_1_text = get_field('section_1_text');
+				$section_2_heading = get_field('section_2_heading');
 				$section_2_image = get_field('section_2_image');
 				$section_2_text = get_field('section_2_text');
+				$section_3_heading = get_field('section_3_heading');
 				$section_3_image = get_field('section_3_image');
 				$section_3_text = get_field('section_3_text');
+				$section_4_heading = get_field('section_4_heading');
 				$section_4_image = get_field('section_4_image');
 				$section_4_text = get_field('section_4_text');
 			?>
@@ -61,18 +64,36 @@ get_header(); ?>
 							</div>
 							<div class="about-page-even-section">
 								<?php if($section_2_image) { ?>
-								<?php echo wp_get_attachment_image( $section_2_image, $size ); ?>
+									<div class="about-page-even-image">
+										<?php echo wp_get_attachment_image( $section_2_image, $size ); ?>
+									</div>
 								<?php } ?>
+								<div class="about-page-even-text">
+									<h3><?php echo $section_2_heading; ?></h3>
+									<p><?php echo $section_2_text; ?></p>
+								</div>
 							</div>
 							<div class="about-page-odd-section">
 								<?php if($section_3_image) { ?>
-								<?php echo wp_get_attachment_image( $section_3_image, $size ); ?>
+									<div class="about-page-odd-image">
+										<?php echo wp_get_attachment_image( $section_3_image, $size ); ?>
+									</div>
 								<?php } ?>
+								<div class="about-page-odd-text">
+									<h3><?php echo $section_3_heading; ?></h3>
+									<p><?php echo $section_3_text; ?></p>
+								</div>
 							</div>
 							<div class="about-page-even-section">
 								<?php if($section_4_image) { ?>
-								<?php echo wp_get_attachment_image( $section_4_image, $size ); ?>
+									<div class="about-page-even-image">
+										<?php echo wp_get_attachment_image( $section_4_image, $size ); ?>
+									</div>
 								<?php } ?>
+								<div class="about-page-even-text">
+									<h3><?php echo $section_4_heading; ?></h3>
+									<p><?php echo $section_4_text; ?></p>
+								</div>
 							</div>
 						</div>
 					</div>
